@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - sorawit
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
